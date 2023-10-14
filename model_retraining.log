@@ -1,0 +1,15 @@
+2023-10-14 16:00:15,000 - model_retraining - INFO - Accuracy Score: 0
+2023-10-14 16:00:15,000 - model_retraining - INFO - Precision Score: 0
+2023-10-14 16:00:15,001 - model_retraining - INFO - Recall Score: 0
+2023-10-14 16:00:15,001 - model_retraining - INFO - F1 Score: 0
+2023-10-14 16:00:15,001 - model_retraining - INFO - ROC AUC Score: 0
+2023-10-14 16:00:25,822 - model_retraining - INFO - Accuracy Score: 0
+2023-10-14 16:00:25,822 - model_retraining - INFO - Precision Score: 0
+2023-10-14 16:00:25,822 - model_retraining - INFO - Recall Score: 0
+2023-10-14 16:00:25,822 - model_retraining - INFO - F1 Score: 0
+2023-10-14 16:00:25,825 - model_retraining - INFO - ROC AUC Score: 0
+2023-10-14 16:05:02,839 - model_retraining - INFO - Evaluation metrics - Accuracy: 0.84, Precision: 0.64, Recall: 0.24, F1 Score: 0.35
+2023-10-14 16:05:12,764 - model_retraining - INFO - Evaluation metrics - Accuracy: 0.84, Precision: 0.61, Recall: 0.28, F1 Score: 0.39
+2023-10-14 16:05:27,883 - model_retraining - INFO - Evaluation metrics - Accuracy: 0.84, Precision: 0.70, Recall: 0.21, F1 Score: 0.32
+2023-10-14 16:07:33,288 - model_retraining - INFO - Evaluation metrics - Accuracy: 0.89, Precision: 0.92, Recall: 0.85, F1 Score: 0.89
+2023-10-14 16:08:09,137 - model_retraining - INFO - Evaluation metrics - Accuracy: 0.88, Precision: 0.90, Recall: 0.85, F1 Score: 0.88
