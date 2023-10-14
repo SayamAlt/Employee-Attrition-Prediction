@@ -1,9 +1,10 @@
+import numpy as np
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 import logging, joblib, warnings
 warnings.filterwarnings('ignore')
 from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.model_selection import train_test_split, RandomizedSearchCV, cross_val_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from sklearn.pipeline import Pipeline
 from imblearn.over_sampling import BorderlineSMOTE
@@ -76,9 +77,14 @@ optimized_model, optimized_acc = train_and_evaluate_model(grid_et)
 if baseline_acc < optimized_acc:
     model = optimized_model
 
+avg_cv_scores = cross_val_score(model,X_test,y_test,scoring='accuracy',cv=5,verbose=2)
+mean_score = round(np.mean(avg_cv_scores),4) * 100
+logger.info("Mean Cross Validation Performance of Extra Trees Classifier: %.2f%",mean_score)
+
 pipeline = Pipeline(steps=[
     ('scaler',scaler),
     ('model',model)
 ])
+
 logging.shutdown()
 joblib.dump(pipeline,'pipeline.pkl')
