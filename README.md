@@ -8,7 +8,6 @@
   - [Objectives](#objectives)
 - [Prerequisites](#prerequisites)
 - [Docker Installation](#docker-installation)
-- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Steps](#steps)
@@ -54,33 +53,6 @@ The main objectives of this project are as follows:
 
 If you don't have Docker installed, you can follow the [official Docker installation guide](https://docs.docker.com/get-docker/) to get it set up on your system.
 
-## Project Structure
-
-├── Dockerfile
-├── requirements.txt
-├── app.py
-├── .github/workflows/
-│ ├── main.yaml
-├── retrain.py
-├── pipeline.pkl
-├── Employee Attrition Prediction.ipynb
-├── model_retraining.log
-├── README.md
-├── LICENSE
-├── WA_Fn-UseC_-HR-Employee-Attrition.csv
-├── templates
-│ ├── index.html
-├── catboost
-│ ├── learn
-│   ├── events.out.tfevents
-│ ├── tmp
-│ ├── catboost_training.json
-│ ├── learn_error.tsv
-│ ├── time_left.tsv
-
-
-- `Dockerfile`: Contains instructions for building the Docker image for the ML model.
-- `.github/workflows/main.yaml`: GitHub Actions workflow for CI/CD.
 
 ## Getting Started
 
