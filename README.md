@@ -9,6 +9,7 @@
 - [Prerequisites](#prerequisites)
 - [Docker Installation](#docker-installation)
 - [Getting Started](#getting-started)
+- [Deploying a Dockerized Machine Learning Model to Render](#deploying-a-dockerized-machine-learning-model-to-render)
   - [Prerequisites](#prerequisites)
   - [Steps](#steps)
 - [Automation Testing](#automation-testing)
