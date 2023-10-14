@@ -45,9 +45,11 @@ The main objectives of this project are as follows:
 
 ## Prerequisites
 
-- [GitHub Account](https://github.com)
-- [Render Account](https://render.com)
+- [Python](https://www.python.org/downloads/)
+- [Render](https://render.com)
 - [Docker](https://www.docker.com/get-started)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Anaconda](https://www.anaconda.com/download/)
 
 ### Docker Installation
 
