@@ -14,7 +14,7 @@
   - [Steps](#steps)
 - [Automation Testing](#automation-testing)
 - [Model Monitoring and Logging](#model-monitoring-and-logging)
-- [CI/CD Pipeline](#ci-/-cd-pipeline)
+- [CI/CD Pipeline](#cicd-pipeline)
 - [Additional Information](#additional-information)
 - [License](#license)
 
