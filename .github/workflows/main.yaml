@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt  # Replace with your requirements file
 
-    - name: Train the model
+    - name: Re-train the model on any changes to the repository
       run: python retrain.py  # Replace with your training script
 
     - name: Build Docker image
@@ -37,7 +37,7 @@ jobs:
           -H "Content-Type: application/json" \
           --data '{
             "image": "employee_attrition_predictor:latest",
-            "serviceId": "srv-ckfgubgeksbs73deqif0"  # Replace with your Render service ID
+            "serviceId": "srv-ckl722rj89us73coe160"  # Replace with your Render service ID
           }' \
           https://api.render.com/v1/deploys
 
