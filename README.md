@@ -15,7 +15,7 @@
 - [Automation Testing](#automation-testing)
 - [Model Monitoring and Logging](#model-monitoring-and-logging)
 - [CI/CD Pipeline](#cicd-pipeline)
-- [Additional Information](#additional-information)
+- [Additional Resources](#additional-resources)
 - [License](#license)
 
 ![Employee Attrition](https://www.techfunnel.com/wp-content/uploads/2020/04/employee-attrition.jpg)
