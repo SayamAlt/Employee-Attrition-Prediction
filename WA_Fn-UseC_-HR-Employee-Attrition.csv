@@ -621,6 +621,7 @@
 44,No,Travel_Rarely,625,Research & Development,4,3,Medical,1,852,4,Male,50,3,2,Healthcare Representative,2,Single,5933,5197,9,Y,No,12,3,4,80,0,10,2,2,5,2,2,3
 25,No,Travel_Rarely,180,Research & Development,2,1,Medical,1,854,1,Male,65,4,1,Research Scientist,1,Single,3424,21632,7,Y,No,13,3,3,80,0,6,3,2,4,3,0,1
 33,No,Travel_Rarely,586,Sales,1,3,Medical,1,855,1,Male,48,4,2,Sales Executive,1,Divorced,4037,21816,1,Y,No,22,4,1,80,1,9,5,3,9,8,0,8
+51,Yes,Travel_Frequently,794,Sales,9,4,Medical,1,1285,3,Female,72.89,4,2,Sales Executive,3,Divorced,13956,20471,10,Y,Yes,18,4,3,80,0,17,2,3,21,12,5,8
 35,No,Travel_Rarely,1343,Research & Development,27,1,Medical,1,856,3,Female,53,2,1,Research Scientist,1,Single,2559,17852,1,Y,No,11,3,4,80,0,6,3,2,6,5,1,1
 36,No,Travel_Rarely,928,Sales,1,2,Life Sciences,1,857,2,Male,56,3,2,Sales Executive,4,Married,6201,2823,1,Y,Yes,14,3,4,80,1,18,1,2,18,14,4,11
 32,No,Travel_Rarely,117,Sales,13,4,Life Sciences,1,859,2,Male,73,3,2,Sales Executive,4,Divorced,4403,9250,2,Y,No,11,3,3,80,1,8,3,2,5,2,0,3
