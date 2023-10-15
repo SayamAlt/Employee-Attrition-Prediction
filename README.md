@@ -129,11 +129,11 @@ Before getting started, make sure you have the following prerequisites:
 
 ## Automation Testing
 
-To perform unit testing on the deployed machine learning model, a retrain.py script has been written in which the model is re-trained on the updated dataset (if any changes have been made) and the model performance is optimized and evaluated on the test dataset using comprehensive cross validation and hyperparameter tuning. To assess the model's performance, multiple evaluation metrics such as accuracy, precision, recall, F1 score, and ROC-AUC score were used. 
+To perform automation testing on the deployed machine learning model, a retrain.py script was written in which the model is initially re-trained on the updated dataset (in case of any changes) and subsequently, the model performance is optimized and evaluated on the test dataset using extensive cross validation and hyperparameter tuning. To assess the model's performance, the pytest module was used to set up various unit test cases. Furthermore, a continuous integration (CI) pipeline was configured to run the tests automatically on every push to the repository.
 
 ## Model Monitoring and Logging
 
-A formal and structured approach was adopted to meticulously document the performance evaluation metrics of the model. Leveraging the capabilities of the logger.info function from Python's logging module, we ensured that essential metrics such as accuracy, precision, recall, F1 score and ROC-AUC score were systematically logged. This meticulous record-keeping not only provided real-time insights into the efficacy of the machine learning model but also facilitated a comprehensive assessment of its performance over time.
+A formal and structured approach was adopted to meticulously document the performance evaluation metrics of the model. Leveraging the capabilities of the logger.info function from Python's logging module, we ensured that essential metrics such as accuracy, precision, recall, F1 score and ROC-AUC score were systematically logged. This meticulous record-keeping not only provided real-time insights into the reliability and efficiency of the machine learning model but also facilitated a comprehensive assessment of its predictive performance over time.
 
 ## CI/CD Pipeline
 
