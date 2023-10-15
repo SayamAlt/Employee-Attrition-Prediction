@@ -24,6 +24,9 @@ jobs:
     - name: Re-train the model on any changes to the repository
       run: python retrain.py  # Replace with your training script
 
+    - name: Test the model on custom inputs
+      run: pytest -p no:cacheprovider --disable-warnings
+      
     - name: Build Docker image
       run: |
         docker build -t employee_attrition_predictor:latest .
