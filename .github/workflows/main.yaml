@@ -21,10 +21,10 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt  # Replace with your requirements file
 
-    - name: Re-train the model on any changes to the repository
+    - name: Re-train model on every push
       run: python retrain.py  # Replace with your training script
 
-    - name: Test the model on custom inputs
+    - name: Test model on custom inputs
       run: pytest -p no:cacheprovider --disable-warnings
       
     - name: Build Docker image
