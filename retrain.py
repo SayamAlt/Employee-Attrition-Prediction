@@ -56,7 +56,7 @@ def train_and_evaluate_model(model):
     recall = recall_score(y_test,y_pred)
     f1 = f1_score(y_test,y_pred)
     roc_auc = roc_auc_score(y_test,y_pred)
-    logger.info("Evaluation metrics - Accuracy: %.2f, Precision: %.2f, Recall: %.2f, F1 Score: %.2f", accuracy, precision, recall, f1)
+    logger.info("Evaluation metrics - Accuracy: %.2f, Precision: %.2f, Recall: %.2f, F1 Score: %.2f, ROC-AUC Score: %.2f", accuracy, precision, recall, f1, roc_auc)
     return model, accuracy
 
 model, baseline_acc = train_and_evaluate_model(ExtraTreesClassifier())
